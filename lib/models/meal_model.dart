@@ -37,7 +37,7 @@ class MealModel {
     required this.isVegetarian,
   });
 }
-
+//meal set
 const MEALRecipes = [
   MealModel(
     id: 'm1',
@@ -171,11 +171,11 @@ const MEALRecipes = [
   MealModel(
     id: 'm5',
     categories: [
-      'A2'
-          'A5',
+      'A2',
+      'A5',
       'A10',
     ],
-    title: 'Salad with Smoked Salmon',
+    title: 'Smoked Salmon',
     effort: Effort.Min,
     complexity: Complexty.Difficult,
     mealImage:
@@ -210,7 +210,7 @@ const MEALRecipes = [
       'A6',
       'A10',
     ],
-    title: 'Delicious Orange Mousse',
+    title: 'Orange Mousse',
     effort: Effort.Little,
     complexity: Complexty.Simple,
     mealImage:
@@ -360,7 +360,7 @@ const MEALRecipes = [
       'A5',
       'A10',
     ],
-    title: 'Asparagus Salad with Cherry Tomatoes',
+    title: 'Asparagus Salad',
     effort: Effort.Max,
     complexity: Complexty.Difficult,
     mealImage:

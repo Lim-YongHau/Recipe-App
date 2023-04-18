@@ -8,7 +8,7 @@ class CategoryModel {
   const CategoryModel(
       {required this.id, required this.name, required this.image});
 }
-
+//category of model
 const mainRecipes = const [
   CategoryModel(
       id: 'A1',
@@ -48,7 +48,7 @@ const recipesForYou = const [
 const hotRecipes = const [
   CategoryModel(
       id: 'A8',
-      name: 'Hot drinks',
+      name: 'Hot',
       image:
           'https://image.freepik.com/free-photo/morning-with-turkish-coffee-brewing_1157-8840.jpg'),
   CategoryModel(
@@ -58,7 +58,7 @@ const hotRecipes = const [
           'https://image.freepik.com/free-photo/colorful-fruit-smoothies-composition-wooden-background_23-2148227532.jpg'),
   CategoryModel(
       id: 'A10',
-      name: 'Fruite salad',
+      name: 'salad',
       image:
           'https://image.freepik.com/free-photo/top-view-different-vegetables-with-fruits-white-background-food-diet-health-ripe-color-salad_140725-98420.jpg'),
 ];

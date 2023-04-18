@@ -67,7 +67,11 @@ class MealDetailsScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(
                             horizontal: 17, vertical: 19),
                         child: Text(selectedMeal.ingredients[index],
-                            style: Theme.of(context).textTheme.subtitle1),
+                            style: Theme.of(context).textTheme.subtitle1!.copyWith(
+                              color: Colors.black,
+                              fontSize: 15,
+                            )),
+
                       ),
                     ),
                     itemCount: selectedMeal.ingredients.length,
@@ -117,7 +121,10 @@ class MealDetailsScreen extends StatelessWidget {
                                 fit: FlexFit.loose,
                                 child: Text(
                                   selectedMeal.steps[index],
-                                  style: Theme.of(context).textTheme.subtitle1,
+                                  style: Theme.of(context).textTheme.subtitle1!.copyWith(
+                                    color: Colors.black,
+                                    fontSize: 15,
+                                  ),
                                   overflow: TextOverflow.fade,
                                   maxLines: 2,
                                   softWrap: false,

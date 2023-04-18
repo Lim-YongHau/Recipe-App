@@ -43,6 +43,6 @@ Widget defaultFormField(
       ),
     );
 
-const Color firstColor = Color.fromRGBO(78, 171, 214, 25);
-const Color secondColor = Color.fromRGBO(129, 114, 197, 2);
-const Color thirdColor = Color.fromRGBO(195, 45, 179, 25);
+const Color firstColor = Colors.deepOrange;
+const Color secondColor = Colors.yellow;
+const Color thirdColor = Colors.black12;

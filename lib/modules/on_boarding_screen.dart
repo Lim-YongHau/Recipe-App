@@ -61,9 +61,9 @@ class OnBoardingScreen extends StatelessWidget {
       child: IntroductionScreen(
         color: secondColor,
         globalBackgroundColor: secondColor,
-        doneColor: Colors.white,
-        skipColor: Colors.white,
-        nextColor: Colors.white,
+        doneColor: Colors.black,
+        skipColor: Colors.black,
+        nextColor: Colors.black,
         done: const Text('Done'),
         next: const Text('Next'),
         skip: const Text('Skip'),
